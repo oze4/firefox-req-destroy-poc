@@ -1,0 +1,15 @@
+{
+  "name": "firefox-req-destroy-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "express": "^4.17.1"
+  }
+}
