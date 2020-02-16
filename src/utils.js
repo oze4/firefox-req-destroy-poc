@@ -15,7 +15,7 @@ class FriendlyDate extends Date {
 }
 
 function destroyRequest(req, res) {
-    console.log(`${yellow(`Destroying Request ${magenta(req.__reqId)}`)}\r\n`);
+    console.log(`${yellow(`Destroying Request ${magenta(req.__reqId)} sent to '${req.originalUrl}'`)}\r\n`);
     req.destroy();
 }
 
